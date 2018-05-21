@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  LinACharts
+//
+//  Created by zengming on 2017/12/21.
+//  Copyright © 2017年 zengooming. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "DimensMacros.h"  //工具宏
+#import "UtilsMacros.h"   //打印宏
+
+
+#import "Masonry.h"
+#import "AFNetworking.h"
+
+//#import <OpenSSL/aes.h>
+
+
+#pragma mark ----- Model ------
+
+
+
+
+#define MainURL @"http://47.100.188.154/tradeweb/tradeHttpServlet"  //虚拟
+#define MainURL1 @"http://101.132.133.8/tradeweb/tradeHttpServlet"    //实盘
+//#define MainURL @"http://118.178.226.111/tradeweb/tradeHttpServlet"
+//#define MainURL @"http://118.178.226.176/tradeweb/tradeHttpServlet"
+//118.178.226.176:80@10
+#define MainKey @"http://139.129.211.231:6677/desss"
+#define MainKey_enc @"http://139.129.211.231:6677/enc"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+
+
